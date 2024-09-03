@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.quote {
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.quote-cap {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.quote-cap h1 {
+  font-weight: bold;
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.quote-cap p {
+  color: #686868;
+  font-size: 30px;
+  padding: 15px 0px;
+}
+
+.quote-cap button {
+  padding: 25px 80px;
+  background-color: blue;
+  color: white;
+  transition: all 0.2s;
+}
+
+.quote-cap button:hover {
+  background-color: green;
+}
